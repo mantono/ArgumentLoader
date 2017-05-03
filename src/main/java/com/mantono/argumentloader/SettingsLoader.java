@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * SettingsLoader is meant to simplify the use of loading configurations and
  * settings flags through the standard arguments vector (String[] args) in a
- * program entry point class and test configurations files. Any class
+ * program entry point class and configurations files. Any class
  * implementing the {@link ProgramOption} interface will also have to define a
  * default option for every setting, in case neither command line flags or a
  * configuration file is used.
